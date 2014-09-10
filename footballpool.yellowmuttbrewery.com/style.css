@@ -1,0 +1,258 @@
+body {
+	margin: 0;
+	color: white;
+	font-weight: bold;
+	display: block;
+	text-shadow: 1px 1px 10px #F7FF14;
+}
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: Yellow;
+}
+
+a#logoLink {
+	border-radius: 30px;
+	position: fixed;
+	width: 5%;
+	height: 50px;
+	top: 0;
+	display: block;
+	z-index: 998;
+	width: 5%;
+}
+
+div#background {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -999;
+	background: radial-gradient(ellipse at center, rgba(98, 125, 77, 0.87)
+	4%, rgba(93, 120, 71, 0.87) 8%, rgba(31, 59, 8, 0.97) 54%,
+	rgba(31, 59, 8, 1) 66%);
+}
+
+img#backgroundimage {
+	height: 125%;
+	width: 125%;
+}
+
+div#header {
+	position: fixed;
+	z-index: 998;
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(to bottom, rgba(19, 19, 19, 1) 0%,
+	rgba(17, 17, 17, 1) 34%, rgba(76, 76, 76, 1) 100%);
+	box-shadow: 10px 10px 20px #000;
+	top: 0;
+	display: block;
+}
+
+div#headerCenter {
+	position: fixed;
+	margin-left: 47.5%;
+	width: 5%;
+	height: 50px;
+	top: 0;
+	display: block;
+	z-index: 998;
+	width: 5%;
+}
+
+div#headerLeft {
+	position: fixed;
+	width: 47.5%;
+	height: 50px;
+	top: 0;
+	display: block;
+	z-index: 998;
+}
+
+div#headerRight {
+	position: fixed;
+	z-index: 998;
+	margin-left: 52.5%;
+	width: 47.5%;
+	height: 50px;
+	top: 0;
+	display: block;
+	width: 47.5%;
+}
+
+div#nav {
+	float: left;
+	width: 200px;
+	/*height: auto;*/
+	background: rgba(76, 76, 76, 0.8);
+	box-shadow: #000000 0 0 10px;
+	border-radius: 10px;
+	border-color: black;
+	z-index: 1;
+	font-family: "Century Gothic", "Helvetica", sans-serif;
+	font-weight: bold;
+	border-radius: 10px;
+	/*position: fixed;*/
+	/*margin-top: 80px;*/
+}
+
+nav ul li {
+	display: inline-block;
+	text-align: center;
+}
+
+nav ul li a {
+	display: block;
+	padding: 15px;
+	color: #444;
+	text-align: center;
+}
+
+div#page {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 74px;
+	padding-right: 24px;
+}
+
+div#pagecontent {
+	/*position: fixed;*/
+	width: 760px;
+	background: rgba(76, 76, 76, 0.8);
+	box-shadow: #000000 0 0 10px;
+	border-radius: 10px;
+	border-color: black;
+	margin: 74px 24px 24px 224px;
+	box-shadow: #000000 0 0 10px;
+	/*display: inline-block;*/
+	/*width: 1328px;*/
+	overflow: auto;
+}
+
+div#pagecontent p, h1, h3 {
+	padding: 5px;
+}
+
+div#pagecontentsignup {
+	width: 325px;
+	background: linear-gradient(to bottom, rgba(76, 76, 76, 1) 0%,
+	rgba(76, 76, 76, 0.99) 1%, rgba(103, 103, 103, 0.91) 16%,
+	rgba(141, 141, 141, 0.8) 37%, rgba(190, 190, 190, 0.65) 64%,
+	rgba(255, 255, 255, 0.5) 100%);
+	box-shadow: #000000 0 0 10px;
+	overflow: auto;
+	margin-top: 200px;
+	margin-bottom: 75px;
+	border-radius: 10px;
+	border-color: black;
+	margin-left: 37.5%;
+	z-index: 1;
+}
+
+div#pagecontentlogin {
+	width: 300px;
+	background: linear-gradient(to bottom, rgba(76, 76, 76, 1) 0%,
+	rgba(76, 76, 76, 0.99) 1%, rgba(103, 103, 103, 0.91) 16%,
+	rgba(141, 141, 141, 0.8) 37%, rgba(190, 190, 190, 0.65) 64%,
+	rgba(255, 255, 255, 0.5) 100%);
+	box-shadow: #000000 0 0 10px;
+	overflow: auto;
+	margin-top: 200px;
+	margin-bottom: 75px;
+	border-radius: 10px;
+	border-color: black;
+	margin-left: 39.5%;
+	z-index: 1;
+}
+
+div#footer {
+	position: fixed;
+	z-index: 998;
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(to top, rgba(19, 19, 19, 1) 0%,
+	rgba(17, 17, 17, 1) 34%, rgba(76, 76, 76, 1) 100%);
+	bottom: 0;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+	padding-top: 2px;
+}
+
+div#headerRight a {
+	display: block;
+	padding: 10px;
+	float: right;
+	font-family: "Century Gothic", "Helvetica", sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	top: 0;
+	z-index: 999;
+}
+
+p#leftTopText {
+	display: block;
+	padding-left: 10px;
+	float: left;
+	font-family: "Century Gothic", "Helvetica", sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: #FFFFFF;
+	top: 0;
+	z-index: 999;
+}
+
+nav#topLeft, #topRight {
+	display: block;
+}
+
+#loginForm {
+	font-size: 14px;
+	display: block;
+	margin-left: 15%;
+}
+
+#signupForm {
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	margin-left: 15%;
+}
+
+#centeredText {
+	text-align: center;
+}
+
+#contactForm {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25em;
+	border-radius: 25px;
+	border-color: black;
+	font-size: 20px;
+}
+
+#standingsTable, #userTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sendTextContent, #sendEmailContent{
+	display: none;
+}
